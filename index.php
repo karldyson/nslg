@@ -97,8 +97,7 @@
 				//text-transform: lowercase;
 			}
 		</style>
-		<!--<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"/>-->
-		<link rel="stylesheet" href="bootstrap.min.css"/>
+		<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"/>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
 		<script src="main.js"></script>
 	</head>
