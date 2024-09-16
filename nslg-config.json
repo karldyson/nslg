@@ -1,0 +1,55 @@
+{
+   "nameservers" : [
+      {
+         "name" : "Some Group",
+         "items" : {
+            "aaa" : { "name" : "Location 1", "host" : "192.0.2.1" },
+            "bbb" : { "name" : "Somewhere Else", "host" : "somewhere.example.com" },
+            "ccc" : { "name" : "A Third Node", "host" : "node3.example.com" }
+         }
+      },
+      {
+         "name" : "Other",
+         "items" : {
+            "quad9" : { "name" : "Quad9", "host" : "9.9.9.9" },
+            "google" : { "name" : "Google", "host" : "8.8.8.8" },
+            "cf" : { "name" : "Cloudflare", "host" : "1.1.1.1" }
+         }
+      },
+      {
+         "name" : "Hidden Group",
+         "prefixes" : [
+            "192.0.2.0/24",
+            "2001:db8::/48"
+         ],
+         "items" : {
+            "zz1" : { "name" : "Host 1", "host" : "host1.hidden.example.com" },
+            "zz2" : { "name" : "Host 2",  "host" : "host2.hidden.example.com" }
+         }
+      }
+   ],
+   "defaults" : {
+      "nameserver" : "aaa",
+      "qtype" : "SOA"
+   },
+   "custom" : {
+      "enabled" : true
+   },
+   "qtypes" : [
+      "SOA",
+      "NS",
+      "A",
+      "AAAA",
+      "DNSKEY",
+      "CDNSKEY",
+      "DS",
+      "CDS",
+      "PTR",
+      "TXT",
+      "RRSIG",
+      "CNAME",
+      "NAPTR",
+      "CAA",
+      "ANY"
+   ]
+}

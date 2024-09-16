@@ -1,0 +1,3 @@
+RedirectMatch 404 /nslg-config.json$
+RedirectMatch 404 /config-check\..*$
+RedirectMatch 404 /php/.*$
