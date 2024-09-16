@@ -15,6 +15,8 @@ It's possible to send queries with a number of options set or unset, as follows:
 * EDNS UDP Size (which will default to 1232)
 * EDNS CLIENT-SUBNET (which will default to your client IP)
 
+They all default off/unticked apart from AD and RD.
+
 ## Installation
 
 Copy the files to a directory on your webserver.
